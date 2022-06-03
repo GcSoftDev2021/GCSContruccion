@@ -9,7 +9,7 @@ namespace Application.Exceptions
 {
     public class ValidationException : Exception
     {
-        public ValidationException() : base("")
+        public ValidationException() : base("Se han producido uno o más errores de validación")
         {
             Errors = new List<string>();
         }
